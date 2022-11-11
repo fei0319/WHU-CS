@@ -1,5 +1,8 @@
-# classes with no formal homework or labs
+# courses with no formal homework or labs
 IoT/
 IC/
 # private information
 *.private
+# binary files
+*.zip
+*.docx
