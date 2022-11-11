@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Shipping Label Form</title>
+</head>
+
+<body>
+
+<h1>Shipping Label</h1>
+<br><hr>
+
+<form method="post" action="Label">
+<b>Sender:</b><br>
+Sender Name: <input type="text" name="SenderName"><br>
+Sender Street Address: <input type="text" name="SenderStrtAddr"><br>
+Sender City/Zip: <input type="text" name="SenderCityZip">
+<br><hr>
+<b>Receiver:</b><br>
+Receiver Name: <input type="text" name="ReceiverName"><br>
+Receiver Street Address: <input type="text" name="ReceiverStrtAddr"><br>
+Receiver City/Zip: <input type="text" name="ReceiverCityZip">
+<br><hr>
+<b>Shipping Category:</b><br>
+<input type="radio" name="destination" value="domestic-stamp.jpg">Domestic<br>
+<input type="radio" name="destination" value="international-stamp.jpg">International
+<br><hr>
+<input type="submit" value="Display Label">
+</form>
+
+</body>
+
+</html>
